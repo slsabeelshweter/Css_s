@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Web</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+        }
+
+      
+        .title {
+            background: url('mk.jfif');
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            color: rgb(248, 248, 248);
+            text-align: center;
+            padding-top: 100px;
+            background-color: rgba(0,0,0,0.5);
+            background-blend-mode: darken;
+        }
+
+        .title h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .title p {
+            margin-bottom: 15px;
+        }
+
+        .title button {
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            background: #5e5c5c;
+            color: aliceblue;
+        }
+
+       
+        .s-title {
+            text-align: center;
+            margin: 25px 0;
+            font-size: 24px;
+        }
+
+        .c {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+            background: #7c7878;
+        }
+
+        .card {
+            width: 50%;
+            background: white;
+            padding: 0%;
+            text-align: center;
+            transition: 0.4s;
+            border: 1px solid #ddd;
+        }
+
+        .card img {
+            width: 80%;
+            height: 200px;
+            object-fit: cover;
+            transition: 0.4s;
+
+        }
+
+        .c1 img:hover {
+            transform: scale(1.2) translateX(-20px);
+        }
+
+        .c2 img:hover {
+            transform: scale(0.8);
+        }
+
+        .c3 img:hover {
+            transform: rotate(10deg) scale(1);
+        }
+        .Develop {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 15px;
+        }
+
+        footer {
+            display: flex;
+            margin-top: 40px;
+            color: white;
+            text-align: center;
+        }
+
+        .footer-left {
+            width: 50%;
+            background: #007BFF; 
+            padding: 30px;
+        }
+
+        .footer-right {
+            width: 50%;
+            background: #111; 
+            padding: 30px;
+        }
+
+      
+        @media(max-width: 600px) {
+            .cards {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+          
+            footer {
+                flex-direction: column;
+            }
+
+            .footer-left, .footer-right {
+                width: 50%;
+            }
+        }
+        .end{
+            text-align: center;
+            padding: 20px;
+            color:#ddd;
+            background: #111;
+            font-size: 10px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <section class="title">
+        
+        <h1><b>Welcome to Responsive Web</b></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, placeat. Quibusdam, neque nostrum! Hic non deleniti itaque et reprehenderit iste quasi facere? Nisi, commodi minima. Quaerat neque obcaecati consectetur magni.</p>
+        
+
+        <button >Read more</button>
+    </section>
+
+   
+    <h2 class="s-title">Responsive Web Development</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui consequuntur reiciendis suscipit ea nemo, molestiae fugit tempore. Maxime eaque dolore consequatur accusantium totam unde asperiores, voluptates reprehenderit illum quam.</p>
+    <br></br>
+    <section class="c">
+
+        <div class="card c1">
+            <img src="p1.jfif" alt="">
+            <h3>Why Responsive?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+        </div>
+
+        <div class="card c2">
+            <img src="p2.jfif" alt="">
+            <h3>Same Experience Everywhere</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+        </div>
+
+        <div class="card c3">
+            <img src="p3.jfif" alt="">
+            <h3>Improve Your Accessibility</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+        </div>
+
+    </section>
+     <section class="Develop">
+        
+        <h2>Develop your website</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, placeat. Quibusdam, neque nostrum! Hic non deleniti itaque et reprehenderit iste quasi facere? Nisi, commodi minima. Quaerat neque obcaecati consectetur magni.</p>
+        
+
+    </section>
+
+    <footer>
+        <div class="footer-left">
+            <h3>Contact Us</h3>
+            <p>Email: info@webresponsive.com</p>
+            <p>phone number : 0741521548</p>
+        </div>
+
+        <div class="footer-right">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            <p>Jordan-Amman</p>
+
+        </div>
+    </footer>
+    <p class ="end">Thank you for using this website </p>
+
+</body>
+</html>
