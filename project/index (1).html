@@ -86,7 +86,7 @@ justify-content:space-between;
 gap:40px;
 }
 .products .left{
-max-width:420px;
+max-width:300px;
 }
 .products .left h2{
 font-size:35px;
@@ -159,8 +159,9 @@ color: #000;
 }
 
 .why-img {
-width: 400px;
+width: 459px;
 border-radius: 16px;
+
 }
 
 .dots {
@@ -255,7 +256,7 @@ color: #555;
 display: flex;
 justify-content: center;
 gap: 36px;
-padding: 40px;
+/* padding: 40px; */
 box-sizing: border-box;
 }
 
@@ -317,7 +318,6 @@ text-decoration: none;
 color: #0a0a0a;
 }
 
-/* استجابة بسيطة للشاشات الصغيرة */
 
 
 @media (min-width:920px) and (max-width:1094px)
@@ -331,6 +331,65 @@ color: #0a0a0a;
     }
 }
 
+    @media (max-width: 425px) {
+
+        .why-choose {
+            width: 100% !important;
+            text-align: center !important;
+            padding: 0 !important;
+            margin: 0 auto !important;
+        }
+
+        .features {
+            grid-template-columns: 1fr !important;
+            gap: 18px !important;
+        }
+
+        .feature-item {
+            flex-direction: column ;
+            text-align: center ;
+            align-items: center ;
+        }
+
+        .feature-item svg,
+        .icon {
+            margin: 0 auto ;
+        }
+
+        .why-choose .col-lg-6:last-child {
+            text-align: center ;
+            justify-content: center ;
+            display: flex ;
+        }
+
+        .big-img {
+            max-width: 80% ;
+            width: 80% ;
+        }
+
+        .small-img-row {
+            flex-direction: column ;
+            gap: 10px ;
+        }
+
+        .small-img {
+            width: 80% ;
+            max-width: 80% ;
+        }
+
+        .why-points {
+            grid-template-columns: 1fr ;
+            gap: 10px ;
+  }
+
+        .why-points .point {
+            justify-content: center ;
+            text-align: center ;
+        }
+
+  
+}
+
 
 
 @media (max-width: 1270px){
@@ -342,7 +401,7 @@ color: #0a0a0a;
     
 }
 
-@media (min-width: 920px) and (max-width: 1270px){
+@media (min-width: 425px) and (max-width: 1270px){
     .products .wrapper {
         margin: auto;
         width: 90%; 
@@ -358,7 +417,7 @@ color: #0a0a0a;
 }
 
 
-@media (max-width: 920px) {
+@media (max-width: 425px) {
     .chairs-section { gap: 20px; padding: 20px; }
     .chair-card { width: 300px; }
     .chair-img-box { width: 90px; height: 90px; min-width: 90px; }
@@ -402,7 +461,7 @@ color: #0a0a0a;
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 425px) {
 
 
 .chair-card {
@@ -503,6 +562,14 @@ color: #0a0a0a;
     }
     
     @media (max-width:600px){
+            .footer-links {
+            margin: auto;
+            justify-content: space-around;
+            display: grid;
+            flex-wrap: wrap;
+            gap: 3;
+            size: 2;
+        }
 
         .newsletter-fields{
             flex-direction: column;
@@ -512,7 +579,8 @@ color: #0a0a0a;
             justify-content: space-around;
             display: grid;
             flex-wrap: wrap;
-            gap: 2;
+            gap: 3;
+            size: 2;
         }
         nav ul {
         display: none;
@@ -520,8 +588,10 @@ color: #0a0a0a;
 
     .footer .chai-img
     {
-        top: 25px;
+                top: 25px;
         width: 200px;
+        position: relative;
+        top: -422px;
     }
         .footer-about{
             width: 50%;
@@ -548,14 +618,10 @@ color: #0a0a0a;
 }
 
         .col-lg-6 .why-img img-fluid{
-            width: 30%;
+            width: 10%;
         }
 
 }
-
-
-
-
 
 .blog-section {
 padding: 40px;
@@ -580,153 +646,189 @@ font-size: 14px;
 text-decoration: underline;
 font-weight: 500;
 }
-
-.blog-container {
-display: flex;
-justify-content: space-between;
-align-items: flex-start;
-gap: 20px;
+@media(max-width:425){
+     .blog-container{ display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    gap: 0px;
+    /* left: 40px; */
+    margin-left: 8px;
+    /* justify-content: center; */
+    text-align: center;
+     }
+     .blog-card {
+      width: 83%;
+      }   
+    .footer .chai-img {
+        top: 25px;
+        width: 200px;
+        position: relative;
+        top: -422px;
+    }
+    .newsletter-fields {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+    /* justify-content: center; */
+    }
+    .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    overflow: visible;
 }
-
-.blog-card {
-width: 30%;
+   
 }
+    .blog-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    }
 
-.blog-card img {
-width: 100%;
-height: auto;
-border-radius: 12px;
-}
+    .blog-card {
+        width: 30%;
+    }
 
+    .blog-card img {
+    width: 100%;
 
-/* العنوان */
-.blog-card h3 {
-font-size: 17px;
-margin: 12px 0 5px 0;
-font-weight: 600;
-}
-
-.blog-card p {
-font-size: 13px;
-color: #666;
-font-style: italic;
-}
-footer {
-background: #f2f5f4;
-padding: 60px 8%;
-position: relative;
-font-family: sans-serif;
-}
-
-.newsletter h3 {
-font-size: 20px;
-margin-bottom: 15px;
-display: flex;
-align-items: center;
-}
-
-.newsletter .icon {
-margin-right: 8px;
-width: 20px;
-}
-
-.newsletter-fields {
-display: flex;
-gap: 15px;
-margin-bottom: 40px;
-}
-
-.newsletter-fields input {
-padding: 12px;
-width: 220px;
-border: 1px solid #ccc;
-border-radius: 6px;
-}
-
-.send-btn {
-padding: 12px 18px;
-border: none;
-background: #2f8f7c;
-color: #fff;
-font-size: 18px;
-cursor: pointer;
-border-radius: 6px;
-}
-
-.footer-content {
-display: flex;
-justify-content: space-between;
-align-items: flex-start;
-position: relative;
-overflow: visible ;
-}
-
-.footer-about {
-width: 30%;
-}
-
-.logo {
-color: #218672;
-font-size: 30px;
-margin-bottom: 10px;
-}
-
-.social a {
-margin-right: 10px;
-font-size: 20px;
-}
-
-.footer {
-position: relative;
-overflow: visible ;
-}
-
-.footer-links {
-display: flex;
-gap: 60px;
-}
-
-.footer-links ul {
-list-style: none;
-padding: 0;
-}
-
-.footer-links ul li {
-margin-bottom: 10px;
-cursor: pointer;
-}
-
-.chai-img {
-width: 300px;
-position: absolute;
-right: 0;
-top: -250px;
-z-index: 0;
-}
-
-.footer-bottom {
-display: flex;
-justify-content: center;
-gap: 40px;
-margin-top: 60px;
-}
-
-.footer-bottom p {
-color: #666;
-}
-
-.copyright {
-text-align: center;
-margin-top: 20px;
-color: #666;
-}
+    border-radius: 12px;
+    }
 
 
+    .blog-card h3 {
+    font-size: 17px;
+    margin: 12px 0 5px 0;
+    font-weight: 600;
+    }
+
+    .blog-card p {
+    font-size: 13px;
+    color: #666;
+    font-style: italic;
+    }
+    footer {
+    background: #f2f5f4;
+    padding: 60px 8%;
+    position: relative;
+    font-family: sans-serif;
+    }
+
+    .newsletter h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    }
+
+    .newsletter .icon {
+    margin-right: 8px;
+    width: 20px;
+    }
+
+    .newsletter-fields {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+    }
+
+    .newsletter-fields input {
+    padding: 12px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    }
+
+    .send-btn {
+    padding: 12px 18px;
+    border: none;
+    background: #2f8f7c;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+    }
+
+    .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    overflow: visible ;
+    }
+
+    .footer-about {
+    width: 30%;
+    }
+
+    .logo {
+    color: #218672;
+    font-size: 30px;
+    margin-bottom: 10px;
+    }
+
+    .social a {
+    margin-right: 10px;
+    font-size: 20px;
+    }
+
+    .footer {
+    position: relative;
+    overflow: visible ;
+    }
+
+    .footer-links {
+    display: flex;
+    gap: 60px;
+    }
+
+    .footer-links ul {
+    list-style: none;
+    padding: 0;
+    }
+
+    .footer-links ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    }
+
+    .chai-img {
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: -250px;
+    z-index: 0;
+    }
+
+    .footer-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+    }
+
+    .footer-bottom p {
+    color: #666;
+    }
+
+    .copyright {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    }
+
+    #chair{
+        position: relative;
+        right: -110%;
+    }
 
 
 
-
-.why-choose {
+    .why-choose {
                 margin-top: 50px;
                 margin: auto;
                 }
@@ -768,6 +870,83 @@ color: #666;
             opacity: 0.7;
             z-index: -1;
             }
+  @media (max-width: 425px) {
+
+        .col-lg-6 {
+            
+            width: 100%;
+            padding: 0;
+            text-align: center;
+    
+        }
+        .col-lg-6.ps-lg-5 h2{ font-size: 20px;
+        align-items: center;
+        width: 330%;
+        text-align: left;
+        padding: -2px;
+        margin: 1px auto;
+           }
+
+        .col-lg-6.ps-lg-5 p{
+            font-size: 14px;
+            text-align: center ;
+            margin-bottom: 10px;
+        }
+
+        .d-flex.flex-column.align-items-start.gap-3.interior-left {
+            order: 2;
+            width: 100%;
+            display: flex ;
+            flex-direction: column ;
+            align-items: center ;
+            position: relative ;
+            top: 200px;
+             left: -130px;
+        }
+
+        .interior-left img {
+            width: 100% ;
+            height: 50% ;
+            margin-bottom: 30px;
+            top: 150;
+        }
+
+       
+        .why-points {
+                  grid-template-columns: 1fr;
+            gap: 1px;
+            justify-items: center;
+            margin-top: 0px;
+        }
+
+        .why-points .point {
+            justify-content: left ;
+            text-align: left ;
+        }
+        .a{
+                width: 195px;
+            height: 245px;
+            position: relative;
+            right: -327px;
+            top: -417px;
+            border-radius: 20px;
+              margin-bottom: 18px;
+
+        }
+        .b{
+               width: 168px;
+            height: 121px;
+            position: relative;
+            right: -304px;
+            top: -386px;
+            border-radius: 10px;
+            right: -192px;
+            margin-bottom: 21px;
+
+        }
+        
+
+}
 
 
 
@@ -820,19 +999,31 @@ color: #666;
         <div class="product-list">
 
             <div class="product">
-            <img src="im1.png">
+            <img src="im1.png"  style="     width: 150px;
+            height: 180px;
+            position: relative;
+            
+            top: -60px;     border-radius: 12px;"">
             <h4>Modern Chair</h4>
             <p>$60.00</p>
             </div>
 
             <div class="product">
-            <img src="im2.png">
-            <h4>Kruzo Aero Chair</h4>
+            <img src="im2.png"style="     width: 150px;
+            height: 180px;
+            position: relative;
+            
+            top: -60px;     border-radius: 12px;">
+            <h4>Kruzo Aero Chair </h4> 
             <p>$78.00</p>
             </div>
 
             <div class="product">
-            <img src="im3.png">
+            <img src="im3.png"style="     width: 150px;
+            height: 180px;
+            position: relative;
+            
+            top: -60px;     border-radius: 12px;">
             <h4>Ergonomic Chair</h4>
             <p>$88.00</p>
             </div>
@@ -845,7 +1036,7 @@ color: #666;
 
 
 
-
+<br>
 
 
 <section class="why-choose container py-5">
@@ -916,19 +1107,32 @@ color: #666;
     </div>
 </section>
 
-<section class="interior container py-5">
+<section class="interior container py-5" style="display: flex;">
 <div class="row align-items-center">
 
-<div class="col-lg-6 d-flex flex-column align-items-start gap-3 interior-left">
+<!-- <div class="col-lg-6 d-flex flex-column align-items-start gap-3 interior-left">
 
-<img src="im11.jpg" class="interior-img big-img rounded">
 
-<div class="d-flex gap-3 small-img-row">
-<img src="im12.jpg" class="interior-img small-img rounded">
-<img src="im13.jpg" class="interior-img small-img rounded">
-</div>
+    <div class="d-flex gap-3 small-img-row">
+    
+</div> -->
 
 </div>
+<DIV class="col-lg-6 d-flex flex-column align-items-start gap-3 interior-left">
+    <img src="im11.jpg" style="    width: 295px;
+    height: 362px;    border-radius: 12px;" >
+
+    <img src="im12.jpg" class="b" style="     width: 134px;
+    height: 135px;
+    position: relative;
+    right: -304px ;
+    top: -378px;     border-radius: 12px;" >
+    <img src="im13.jpg" class="a" style="     width: 201px;
+    height: 240px;
+    position: relative;
+    right: -260px;
+    top: -384px;     border-radius: 12px;" >
+</DIV>
 
 <div class="col-lg-6 ps-lg-5">
 <h2 class="fw-bold mb-3">We help you make Modern Interior Design</h2>
