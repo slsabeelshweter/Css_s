@@ -1,0 +1,1423 @@
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Website Landing page</title>
+
+<style>
+
+
+nav{
+background:#0f665a;
+padding:18px 0;
+color:rgb(186,199,0);
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+nav .logo{
+font-size:26px;
+font-weight:bold;
+margin-left:20px;
+}
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+margin-right:20px;
+}
+nav ul li a{
+color:white;
+font-weight:500;
+text-decoration:none;
+}
+
+.hero{
+background:#2d7c73;
+padding:60px 0;
+color:white;
+}
+.hero-content{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+width:85%;
+margin:auto;
+}
+.hero h1{
+font-size:32px;
+max-width:380px;
+}
+.hero-buttons a{
+display:inline-block;
+padding:12px 20px;
+border-radius:6px;
+margin-right:10px;
+margin-top:15px;
+font-weight:600;
+text-decoration:none;
+}
+.shop{
+background:#ffc933;
+color:#000;
+}
+.explore{
+border:2px solid #fff;
+color:white;
+}
+.sofa-img{
+width:700px;
+max-width:100%;
+}
+
+.products{
+padding:60px 0;
+background:white;
+width:85%;
+margin:auto;
+}
+.products .wrapper{
+display:flex;
+justify-content:space-between;
+gap:40px;
+}
+.products .left{
+max-width:300px;
+}
+.products .left h2{
+font-size:35px;
+margin-bottom:10px;
+}
+.products .left p{
+color:#666;
+margin-bottom:25px;
+}
+.explore-btn{
+background:#0f665a;
+padding:10px 22px;
+color:white;
+border-radius:6px;
+font-weight:600;
+text-decoration:none;
+}
+
+.product-list{
+display:flex;
+gap:40px;
+justify-content:center;
+align-items:center;
+}
+.product{
+width:260px;
+background:#f3f7f7;
+padding:25px;
+border-radius:18px;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+text-align:center;
+transition:0.3s;
+}
+.product img{
+width:100%;
+height:auto;
+margin-bottom:15px;
+}
+.product h4{
+font-size:18px;
+font-weight:600;
+margin:10px 0 6px;
+}
+.product p{
+font-size:16px;
+color:#000;
+font-weight:600;
+margin:0;
+}
+
+
+
+.why-choose {
+    width: 100% ;
+    margin-left: 0 ;
+    padding-left: 0 ;
+    text-align: left ;
+    margin-top: 50px;
+    margin: auto;
+}
+
+.why-choose .col-lg-6:last-child {
+text-align: right ;
+display: flex;
+justify-content: flex-end;
+}
+
+.features {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 30px 40px;
+margin-top: 35px;
+}
+
+.feature-item {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+}
+
+.icon {
+font-size: 26px;
+color: #000;
+}
+
+/* .why-img {
+width: 459px;
+border-radius: 16px;
+
+} */
+
+.dots {
+width: 150px;
+height: 150px;
+background-image: radial-gradient(#0f665a, transparent 2px);
+background-size: 18px 18px;
+position: absolute;
+top: -35px;
+left: 50px;
+opacity: 0.7;
+z-index: -1;
+}
+
+.feature-item {
+display: flex;
+align-items: flex-start;
+gap: 12px;
+text-align: left ;
+}
+
+.feature-item svg {
+flex-shrink: 0;
+}
+
+
+.big-img {
+width: 100%;
+max-width: 420px;
+border-radius: 12px;
+}
+
+.small-img-row {
+display: flex;
+}
+
+.small-img {
+width: 48%;
+max-width: 200px;
+border-radius: 10px;
+}
+
+
+.why-points .point {
+font-size: 15px;
+color: #555;
+margin-bottom: 10px;
+display: flex;
+align-items: flex-start;
+gap: 10px;
+}
+
+
+.why-points {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 15px 40px;
+margin-bottom: 1rem;
+}
+
+.why-points .point {
+font-size: 15px;
+color: #555;
+display: flex;
+align-items: flex-start;
+gap: 10px;
+}
+
+.why-points .point::before {
+content: "•";
+color:#0f665a;
+font-size: 20px;
+line-height: 1;
+margin-top: 3px;
+}
+.testimonial-text {
+max-width: 600px;
+line-height: 1.7;
+color: #555;
+}
+
+.chairs-section {
+display: flex;
+justify-content: center;
+gap: 36px;
+/* padding: 40px; */
+box-sizing: border-box;
+}
+
+.chair-card {
+display: flex;
+align-items: center;
+gap: 18px;
+width: 360px;
+padding: 16px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+border-radius: 12px;
+background: #fff;
+box-sizing: border-box;
+}
+
+.chair-img-box {
+width: 110px;
+height: 110px;
+min-width: 110px;
+border-radius: 12px;
+background-color: #dce6e4;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+
+.chair-img-box img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+display: block;
+}
+
+.chair-content {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.chair-title {
+font-size: 16px;
+font-weight: 700;
+margin: 0 0 6px 0;
+color: #111;
+}
+
+.chair-desc {
+font-size: 13px;
+color: #555;
+margin: 0 0 10px 0;
+line-height: 1.4;
+}
+
+.chair-link {
+font-size: 13px;
+font-weight: 600;
+text-decoration: none;
+color: #0a0a0a;
+}
+
+
+
+@media (min-width:920px) and (max-width:1094px)
+{
+.hero-content{
+width: 90%;
+
+}
+.hero-content .sofa-img{
+width: 450px;
+}
+}
+
+
+
+
+@media (max-width: 1270px){
+.products .wrapper {
+width: 90%;
+flex-direction: column;
+justify-content: center;}
+
+
+}
+
+@media (min-width: 425px) and (max-width: 1270px){
+.products .wrapper {
+margin: auto;
+width: 90%;
+flex-direction: column;
+justify-content: center;}
+
+
+.hero-content img {
+width: 550px;}
+
+
+
+}
+
+
+@media (max-width: 425px) {
+.chairs-section { gap: 20px; padding: 20px; }
+.chair-card { width: 300px; }
+.chair-img-box { width: 90px; height: 90px; min-width: 90px; }
+.products .wrapper{
+margin: auto;
+}
+.product-list{
+flex-direction: column;
+}
+.footer-content{
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer-about{
+    margin: auto;
+    flex-direction: column;
+    padding-bottom: 40px;
+
+}
+
+.footer-about p {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.footer-about .social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.footer-content .chai-img{
+    top: -350px;
+/* display: flex; */
+}
+
+.hero-content{
+justify-content: center;
+text-align: center;
+}
+
+.hero-content a {
+flex-direction: column;
+width: 50%;
+
+
+}
+
+.chair-card {
+flex-direction: column;
+/* display: flex; */
+align-items: center;
+
+width: 360px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+border-radius: 12px;
+background: #fff;
+box-sizing: border-box;
+}
+
+.chair-img-box {
+width: 110px;
+height: 210px;
+max-width: 100%;
+border-radius: 12px;
+background-color: #dce6e4;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+
+.chair-img-box img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+display: block;
+}
+
+.chair-content {
+flex-direction: column;
+font-size: 15px;
+}
+
+.chair-title {
+font-size: 1px;
+}
+
+.chair-desc {
+font-size: 8px;
+color: #555;
+margin: 0 0 10px 0;
+line-height: 1.4;
+}
+
+.chair-link {
+font-size: 10px;
+font-weight: 600;
+text-decoration: none;
+color: #0a0a0a;
+}
+
+
+/* .why-choose {
+width: 100% !important;
+text-align: center !important;
+padding: 0 !important;
+margin: 0 auto !important;
+} */
+
+.features {
+grid-template-columns: 1fr !important;
+gap: 18px !important;
+}
+
+.feature-item {
+flex-direction: column ;
+text-align: center ;
+align-items: center ;
+}
+
+.feature-item svg,
+.icon {
+margin: 0 auto ;
+}
+
+.why-choose .col-lg-6:last-child {
+text-align: center ;
+justify-content: center ;
+display: flex ;
+}
+
+.big-img {
+max-width: 80% ;
+width: 80% ;
+}
+
+.small-img-row {
+flex-direction: column ;
+gap: 10px ;
+}
+
+.small-img {
+width: 80% ;
+max-width: 80% ;
+}
+
+.why-points {
+grid-template-columns: 1fr ;
+gap: 10px ;
+}
+
+.why-points .point {
+justify-content: center ;
+text-align: center ;
+}
+.col-lg-6 {
+
+width: 100%;
+padding: 0;
+text-align: center;
+
+}
+.col-lg-6.ps-lg-5 h2{ font-size: 17px;
+align-items: left;
+/* width: 265%; */
+text-align: center;
+padding: -2px;
+margin: 1px auto;
+
+}
+
+.col-lg-6.ps-lg-5 p{
+font-size: 14px;
+text-align: center ;
+margin-bottom: 10px;
+}
+
+.d-flex.flex-column.align-items-start.gap-3.interior-left {
+order: 2;
+width: 100%;
+display: flex ;
+flex-direction: column ;
+align-items: center ;
+position: relative ;
+top: 200px;
+left: -40px;
+}
+
+
+
+
+.why-points {
+grid-template-columns: 1fr;
+gap: 1px;
+justify-items: center;
+margin-top: 0px;
+}
+
+.why-points .point {
+justify-content: left ;
+text-align: left ;
+}
+.c-img{
+width: 50px;
+height: 186px;
+position: relative;
+right: -100px;
+top: -336px;
+border-radius: 12px;
+}
+.b-img{
+width: 123px;
+height: 94px;
+position: relative;
+right: -222px;
+top: -295px;
+border-radius: 12px;
+}
+.a-img{
+width: 217px;
+height: 252px;
+right: -215px;
+border-radius: 12px;
+}
+
+.interior-left {
+    margin: auto;
+    justify-content: center;
+    width: 100% ;
+    height: 50% ;
+    /* margin-bottom: 30px; */
+    top: 150;
+}
+
+.text-muted mb-3{
+
+margin-top: 348px;
+margin-right: -248px;
+font-size: 14px;
+top: -327px;
+
+}
+
+.blog-container{ display: flex;
+flex-direction: column;
+/* justify-content: space-between; */
+/* align-items: flex-start; */
+gap: 0px;
+/* left: 40px; */
+margin-left: 8px;
+margin: auto;
+/* justify-content: center; */
+text-align: center;
+justify-content: center;
+}
+
+.blog-container .blog-card{
+    margin: auto;
+    width: 75%;
+    padding-bottom: 60px;
+    /* height: 400px; */
+    /* justify-content: center; */
+}
+.blog-card {
+width: 83%;
+}
+.footer .chai-img {
+top: 25px;
+width: 200px;
+position: relative;
+top: -422px;
+}
+.newsletter-fields {
+display: flex;
+gap: 15px;
+margin-bottom: 40px;
+/* justify-content: center; */
+}
+.footer-content {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+position: relative;
+overflow: visible;
+}
+
+
+.interior {
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+
+.interiorContents{
+    flex-direction: column;
+    width: 420px;
+}
+
+.why-img {
+    width: 70%;
+    border-radius: 14px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 874px){
+
+.chair-img-box{
+width: 310px;
+height: 260px;
+}
+
+.chair-title, .chair-desc, .chair-link{
+font-size: x-large;
+}
+.chair-title{
+padding-bottom: 15px;
+}
+
+.chair-img-box img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+display: block;
+}
+
+.chairs-section{
+flex-direction: column;
+}
+.chairs-section .chair-card{
+margin: auto;
+width: 80%;
+height: 300px;
+}
+
+.chairs-section .chair-img-box{
+margin: auto;
+
+}
+
+
+.footer-content .chai-img{
+
+top: -20px }
+
+}
+
+@media (max-width:600px){
+.footer-links {
+margin: auto;
+justify-content: space-around;
+display: grid;
+flex-wrap: wrap;
+gap: 3;
+size: 2;
+}
+
+.newsletter-fields{
+flex-direction: column;
+}
+.footer-links{
+margin: auto;
+justify-content: space-around;
+display: grid;
+flex-wrap: wrap;
+gap: 3;
+size: 2;
+}
+nav ul {
+display: none;
+}
+
+.footer .chai-img
+{
+top: 25px;
+width: 200px;
+position: relative;
+top: -422px;
+}
+.footer-about{
+width: 50%;
+}
+
+}
+
+
+@media (max-width:992px){
+.col-lg-6 .features{
+width: auto;
+flex-direction: column;
+}
+
+.features {
+
+display: flex;
+flex-direction: column;
+}
+
+.row align-items-center
+{
+flex-direction: column;
+}
+
+.col-lg-6 .why-img img-fluid{
+width: 10%;
+}
+
+}
+
+.blog-section {
+padding: 40px;
+font-family: Arial, sans-serif;
+}
+
+.blog-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 25px;
+}
+
+.blog-header h2 {
+font-size: 32px;
+font-weight: 700;
+}
+
+.blog-header a {
+color: #000;
+font-size: 14px;
+text-decoration: underline;
+font-weight: 500;
+}
+
+.blog-container {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+gap: 20px;
+}
+
+.blog-card {
+width: 30%;
+}
+
+.blog-card img {
+width: 100%;
+
+border-radius: 12px;
+}
+
+
+.blog-card h3 {
+font-size: 17px;
+margin: 12px 0 5px 0;
+font-weight: 600;
+}
+
+.blog-card p {
+font-size: 13px;
+color: #666;
+font-style: italic;
+}
+footer {
+background: #f2f5f4;
+padding: 60px 8%;
+position: relative;
+font-family: sans-serif;
+}
+
+.newsletter h3 {
+font-size: 20px;
+margin-bottom: 15px;
+display: flex;
+align-items: center;
+}
+
+.newsletter .icon {
+margin-right: 8px;
+width: 20px;
+}
+
+.newsletter-fields {
+display: flex;
+gap: 15px;
+margin-bottom: 40px;
+}
+
+.newsletter-fields input {
+padding: 12px;
+/* width: 220px; */
+border: 1px solid #ccc;
+border-radius: 6px;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: auto;
+}
+
+.send-btn {
+padding: 12px 18px;
+border: none;
+background: #2f8f7c;
+color: #fff;
+font-size: 18px;
+cursor: pointer;
+border-radius: 6px;
+}
+
+.footer-content {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+position: relative;
+overflow: visible ;
+}
+
+.footer-about {
+width: 100%;}
+
+
+.logo {
+color: #218672;
+font-size: 30px;
+margin-bottom: 10px;
+}
+
+.social a {
+margin-right: 10px;
+font-size: 20px;
+}
+
+.footer {
+position: relative;
+overflow: visible ;
+}
+
+.footer-links {
+display: flex;
+gap: 60px;
+}
+
+.footer-links ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-links ul li {
+margin-bottom: 10px;
+cursor: pointer;
+}
+
+.chai-img {
+width: 300px;
+position: absolute;
+right: 0;
+top: -250px;
+z-index: 0;
+}
+
+.footer-bottom {
+display: flex;
+justify-content: center;
+gap: 40px;
+margin-top: 60px;
+}
+
+.footer-bottom p {
+color: #666;
+}
+
+.copyright {
+text-align: center;
+margin-top: 20px;
+color: #666;
+}
+
+#chair{
+position: relative;
+right: -110%;
+}
+
+
+
+
+
+.features {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 30px 40px;
+margin-top: 35px;
+}
+
+.feature-item {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+}
+
+.icon {
+font-size: 26px;
+color: #000;
+}
+
+.why-img {
+width: 450px;
+border-radius: 14px;
+box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+
+.dots {
+width: 150px;
+height: 150px;
+background-image: radial-gradient(#e7d26c 2px, transparent 2px);
+background-size: 18px 18px;
+position: absolute;
+top: -35px;
+left: 50px;
+opacity: 0.7;
+z-index: -1;
+}
+
+
+
+
+
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">FIN</div>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About Us </a></li>
+<li><a href="#">Service</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<div class="hero-content">
+
+<div>
+<h1>"Transform your space with elegance."</h1>
+
+<div class="hero-buttons">
+<a class="shop" href="#">Shop now</a>
+<a class="explore" href="#">Explore</a>
+</div>
+</div>
+
+<img class="sofa-img" src="sofa.png" alt="sofa">
+
+</div>
+</section>
+
+<section class="products">
+<div class="wrapper">
+
+<div class="left">
+<h2>Crafted with excellent material.</h2>
+<p>Donec mattis porta eros, aliquet finibus risus interdum at.
+Nulla vive the as it was for us to know what was to be done.</p>
+<a class="explore-btn" href="#">Explore</a>
+</div>
+
+<div class="product-list">
+
+<div class="product">
+<img src="im1.png" style=" width: 150px;
+height: 180px;
+position: relative;
+
+top: -60px; border-radius: 12px;"">
+<h4>Modern Chair</h4>
+<p>$60.00</p>
+</div>
+
+<div class="product">
+<img src="im2.png"style=" width: 150px;
+height: 180px;
+position: relative;
+
+top: -60px; border-radius: 12px;">
+<h4>Kruzo Aero Chair </h4>
+<p>$78.00</p>
+</div>
+
+<div class="product">
+<img src="im3.png"style=" width: 150px;
+height: 180px;
+position: relative;
+
+top: -60px; border-radius: 12px;">
+<h4>Ergonomic Chair</h4>
+<p>$88.00</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+
+
+<br>
+
+
+<section class="why-choose container py-5">
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<h2 class="fw-bold mb-3">Why Choose Us</h2>
+<p class="text-muted mb-4">
+Donec mattis porta eros, aliquet finibus risus interdum at. Nulla<br>
+vivethe as it was for us to know what was to be done.
+</p>
+
+<div class="features">
+
+<div class="feature-item dots-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="icon" viewBox="0 0 16 16">
+<path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+</svg>
+<div class="feature-item">
+<h6 class="fw-bold m-0 pb-2">Fast & Free Shipping</h6>
+<p class="text-muted">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was</p>
+</div>
+</div>
+
+<div class="feature-item">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="icon" viewBox="0 0 16 16">
+<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+</svg>
+
+<div>
+<h6 class="fw-bold m-0 pb-2">Easy to Shop</h6>
+<p class="text-muted">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was</p>
+</div>
+</div>
+
+<div class="feature-item">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="icon" viewBox="0 0 16 16">
+<path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5"/>
+<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+</svg>
+<div>
+<h6 class="fw-bold m-0 pb-2">24/7 Support</h6>
+<p class="text-muted">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was</p>
+</div>
+</div>
+
+<div class="feature-item">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="icon" viewBox="0 0 16 16">
+<path d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
+<path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
+</svg>
+<div>
+<h6 class="fw-bold m-0 pb-2">Hassle Free Returns</h6>
+<p class="text-muted">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was</p>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="col-lg-6 position-relative text-center">
+<div class="dots"></div>
+<img src="im4.jpg" class="why-img img-fluid" alt="">
+</div>
+
+</div>
+</section>
+
+<section class="interior container py-5" style="display: flex;">
+<!-- <div class="row align-items-center"> -->
+
+<!-- <div class="col-lg-6 d-flex flex-column align-items-start gap-3 interior-left">
+
+
+<div class="d-flex gap-3 small-img-row">
+
+</div> -->
+
+<!-- </div> -->
+
+<DIV class="col-lg-6 d-flex flex-column align-items-start gap-3 interior-left">
+
+
+
+<img class="a-img" src="im11.jpg" style=" width: 295px;
+height: 362px; border-radius: 12px;" >
+
+<img class="b-img" src="im12.jpg" style=" width: 134px;
+height: 135px;
+position: relative;
+right: -304px ;
+top: -378px; border-radius: 12px;" >
+<img class ="c-img" src="im13.jpg" style=" width: 201px;
+height: 240px;
+position: relative;
+right: -260px;
+top: -384px; border-radius: 12px;" >
+</DIV>
+
+<div class="col-lg-6 ps-lg-5 interiorContents">
+    <h2 class="fw-bold mb-3 titleInterior">We help you make Modern Interior Design</h2>
+
+    <p class="text-muted mb-3">
+    Donec mattis porta eros, aliquet finibus risus interdum at.
+    Nulla vivethe as it was for us to know what was to be done.
+    </p>
+
+    <div class="why-points mb-4">
+    <div class="point"> Donec mattis porta eros, aliquet finibus risus.</div>
+    <div class="point"> Donec mattis porta eros, aliquet finibus risus interdum at.</div>
+    <div class="point"> Donec mattis porta eros, aliquet finibus risus interdum.</div>
+    <div class="point"> Donec mattis porta eros, aliquet finibus risus interdum at.</div>
+    </div>
+
+    <a href="#" class="explore-btn mt-3 d-inline-block">Explore</a>
+</div>
+
+</div>
+</section>
+<section class="chairs-section">
+
+<div class="chair-card">
+<div class="chair-img-box">
+<img src="im1.png" alt="chair 1">
+</div>
+<div class="chair-content">
+<h3 class="chair-title">Modern Chair</h3>
+<p class="chair-desc">Donec mattis porta eros, aliquet finibus risus in. Donec</p>
+<a class="chair-link" href="#">Read more</a>
+</div>
+</div>
+
+<div class="chair-card">
+<div class="chair-img-box">
+<img src="im2.png" alt="chair 2">
+</div>
+<div class="chair-content">
+<h3 class="chair-title">Kruzi Aero</h3>
+<p class="chair-desc">Donec mattis porta eros, aliquet finibus risus in. Donec</p>
+<a class="chair-link" href="#">Read more</a>
+</div>
+</div>
+
+<div class="chair-card">
+<div class="chair-img-box">
+<img src="im3.png" alt="chair 3">
+</div>
+<div class="chair-content">
+<h3 class="chair-title">Ergonomic Chair</h3>
+<p class="chair-desc">Donec mattis porta eros, aliquet finibus risus in. Donec</p>
+<a class="chair-link" href="#">Read more</a>
+</div>
+</div>
+
+</section>
+
+
+
+</section>
+<section class="testimonials container py-5 text-center">
+<h2 class="fw-bold mb-4">Testimonials</h2>
+
+<p class="testimonial-text mx-auto mb-4">
+“Donec mattis porta eros, aliquet finibus risus interdum at.
+Nulla vivethe as it was for us to know what was to be done.
+Donec mattis porta eros, aliquet finibus risus interdum at.”
+</p>
+
+<img src="im8.jpg" class="rounded-circle" width="80">
+<h6 class="fw-bold mt-2">Zain bin Noor</h6>
+</section>
+
+<section class="blog-section">
+
+    <div class="blog-header">
+        <h2>Recently Blog</h2>
+        <a href="#">View All Posts</a>
+    </div>
+
+    <div class="blog-container">
+
+        <div class="blog-card">
+            <img src="im5.jpg" alt="blog image">
+            <h3>First Time Home Owner Ideas</h3>
+            <p>by Nana Ama on Nov 18th, 2022</p>
+        </div>
+
+        <div class="blog-card">
+            <img src="im6.jpg" alt="blog image">
+            <h3>First Time Home Owner Ideas</h3>
+            <p>by Nana Ama on Nov 18th, 2022</p>
+        </div>
+
+        <div class="blog-card">
+            <img src="im7.jpg" alt="blog image">
+            <h3>First Time Home Owner Ideas</h3>
+            <p>by Nana Ama on Nov 18th, 2022</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+<div class="newsletter">
+<h3>
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+</svg>
+</span>
+Subscribe to Newsletter
+</h3>
+
+<div class="newsletter-fields">
+<input type="text" placeholder="Enter your name">
+<input type="email" placeholder="Enter your e-mail">
+<button class="send-btn">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+<path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z"/>
+</svg>
+</button>
+</div>
+</div>
+
+<div class="footer-content">
+    
+    <div class="imgFooter" style="height: 0px;">
+        <img class="chai-img" src="im10.png" alt="chair">
+    </div>
+    
+    
+    <div class="footer-about">
+        <h2 class="logo">FIN</h2>
+        <p>
+        Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as
+        it was for us to know what was to be done. the this is a long post for the text.
+        </p>
+
+        <div class="social">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg>
+            </a>
+
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                </svg>
+            </a>
+
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                </svg>
+            </a>
+
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer-links">
+        <ul>
+        <li>About us</li>
+        <li>Services</li>
+        <li>Blog</li>
+        <li>Contact us</li>
+        </ul>
+
+        <ul>
+        <li>Support</li>
+        <li>Knowledge base</li>
+        <li>Live chat</li>
+        </ul>
+
+        <ul>
+        <li>Jobs</li>
+        <li>Our team</li>
+        <li>Leadership</li>
+        <li>Privacy Policy</li>
+        </ul>
+
+        <ul>
+        <li>Nordic Chair</li>
+        <li>Kruzo Aero</li>
+        <li>Ergonomic</li>
+        </ul>
+    </div>
+
+
+</div>
+
+<div class="footer-bottom">
+<p>Terms & Conditions</p>
+<p>Privacy Policy</p>
+</div>
+
+<p class="copyright">
+Copyright 2022 zainal00769@gmail.com. All Rights Reserved.
+</p>
+
+</footer>
+
+
+
+
+
+</section>
+
+</body>
+</html>
