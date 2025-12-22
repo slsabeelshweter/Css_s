@@ -1,0 +1,26 @@
+  
+        let btn = document.getElementById("btn");
+        let box = document.getElementById("box");
+
+        box.style.width = "150px";
+        box.style.height = "150px";
+        box.style.backgroundColor = "gray";
+        box.style.marginTop = "20px";
+
+
+        function changeButtonText() {
+            btn.innerText = "Welcome";
+        }
+
+        function mouseOverBox() {
+            box.style.backgroundColor = "blue";
+        }
+
+        function mouseOutBox() {
+            box.style.backgroundColor = "black";
+        }
+
+        btn.onclick = changeButtonText;
+        box.onmouseover = mouseOverBox;
+        box.onmouseout = mouseOutBox;
+    
