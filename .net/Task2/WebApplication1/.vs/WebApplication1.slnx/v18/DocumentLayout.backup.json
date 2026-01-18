@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|c:\\users\\dell\\desktop\\task2\\webapplication1\\webapplication1\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|c:\\users\\dell\\desktop\\task2\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|c:\\users\\dell\\desktop\\task2\\webapplication1\\webapplication1\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|c:\\users\\dell\\desktop\\task2\\webapplication1\\webapplication1\\wwwroot\\js\\contact.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\js\\contact.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|c:\\users\\dell\\desktop\\task2\\webapplication1\\webapplication1\\views\\home\\calculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\calculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|c:\\users\\dell\\desktop\\task2\\webapplication1\\webapplication1\\wwwroot\\js\\calculator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\js\\calculator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|c:\\users\\dell\\desktop\\task2\\webapplication1\\webapplication1\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|c:\\users\\dell\\desktop\\task2\\webapplication1\\webapplication1\\wwwroot\\css\\style2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\style2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|c:\\users\\dell\\desktop\\task2\\webapplication1\\webapplication1\\wwwroot\\css\\style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|c:\\users\\dell\\desktop\\task2\\webapplication1\\webapplication1\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|c:\\users\\dell\\desktop\\task2\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1A212E-6C28-42D0-8415-4F34584AAA21}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\Views\\Home\\ContactUs.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\ContactUs.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\Views\\Home\\ContactUs.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\ContactUs.cshtml",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAAALUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-18T23:12:45.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\Views\\Home\\Home.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Home.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\Views\\Home\\Home.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Home.cshtml",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-18T23:11:13.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "contact.js",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\wwwroot\\js\\contact.js",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\js\\contact.js",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\wwwroot\\js\\contact.js",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\js\\contact.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-18T23:06:09.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "calculator.js",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\wwwroot\\js\\calculator.js",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\js\\calculator.js",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\wwwroot\\js\\calculator.js",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\js\\calculator.js",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwEkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-18T23:05:18.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "style2.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\wwwroot\\css\\style2.css",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\style2.css",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\wwwroot\\css\\style2.css",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\style2.css",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAswCgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-18T23:04:39.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-18T22:52:20.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Calculator.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\Views\\Home\\Calculator.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Calculator.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\Views\\Home\\Calculator.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Calculator.cshtml",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAQwKsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-18T22:52:00.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-18T22:52:47.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "style1.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\wwwroot\\css\\style1.css",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\style1.css",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\wwwroot\\css\\style1.css",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\style1.css",
+              "ViewState": "AgIAAGEFAAAAAAAAAAAswIMFAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-18T23:04:05.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-18T23:02:56.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Task2\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:46:04.108Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
